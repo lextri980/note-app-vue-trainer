@@ -32,14 +32,17 @@
           <StatusBadge :noteProps="noteProps" />
         </div>
         <hr />
-        <el-tooltip
-          class="item"
-          effect="dark"
-          :content="noteProps.description"
+        <el-popover
+          class="popover"
           placement="bottom"
+          width="300"
+          trigger="click"
+          :content="noteProps.description"
         >
-          <div class="card-content">{{ noteProps.description }}</div>
-        </el-tooltip>
+          <div class="card-content" slot="reference">
+            {{ noteProps.description }}
+          </div>
+        </el-popover>
       </div>
     </div>
   </div>
@@ -128,6 +131,6 @@ hr {
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
-  cursor: default;
+  cursor: pointer;
 }
 </style>

@@ -18,7 +18,7 @@ export const notes = [
     title: "Team building",
     status: "DONE",
     description:
-      "Go team building in June 21st, prepare 2 clothes, camera, body mist, wax, snacks, phone chargers",
+      "Go team building in June 21st, prepare 2 clothes, camera, body mist, wax, snacks, phone chargers, everything I can eat when I'm hungry, everything I can drink when I'm thirsty",
     url: "",
   },
   {
