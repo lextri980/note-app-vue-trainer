@@ -8,15 +8,13 @@ Before you continue, ensure you meet the following requirements:
 - Installing a Code editor (ex: VS Code)
 - Installing Nodejs
 
-### Installation 
-#### 1. Client folder
+### Installation
 - Open Terminal
 - Run `npm i`
 - Run `npm run serve`
 
 ### Technologies
-#### 1. Client folder
 - Framework: `VueJS`
-- UI lib: `ElementUI`
-- Style: `SCSS`
+- UI lib: `element-ui`
+- Style: `scss`
 
