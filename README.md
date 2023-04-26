@@ -1,24 +1,22 @@
-# vue-noteapp
+# Note App Vue Trainer
 
-## Project setup
-```
-npm install
-```
+### Abstract
+This is a trainer Project (Train Vue)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### Prerequisites
+Before you continue, ensure you meet the following requirements:
+- Installing a Code editor (ex: VS Code)
+- Installing Nodejs
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### Installation 
+#### 1. Client folder
+- Open Terminal
+- Run `npm i`
+- Run `npm run serve`
 
-### Lints and fixes files
-```
-npm run lint
-```
+### Technologies
+#### 1. Client folder
+- Framework: `VueJS`
+- UI lib: `ElementUI`
+- Style: `SCSS`
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
